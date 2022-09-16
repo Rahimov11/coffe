@@ -46,7 +46,7 @@
     font-family: 'Franuces' ,serif;
     font-family: 'Barlow' sans-serif;
   }
-  .link:hover{
+  .navbar__link{
     letter-spacing: 0.923077px;
 text-transform: uppercase;
 
@@ -58,17 +58,17 @@ color: #0c0d0e;
     margin: 0 auto;
     padding: 0 20px;
   }
-  .coffe{
+  .site-header__coffe{
     padding: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .list{
+  .navbar__list{
     display: flex;
     gap: 33px;
   }
-  .link{
+  .navbar__link{
     font-weight: 700;
 font-size: 12px;
 line-height: 15px;
@@ -77,16 +77,40 @@ text-transform: uppercase;
 color: #83888F;
 
   }
-
-  .graet{
+   .site-main__backgraound{
+    background-image: url(../img/backgraound.jpg);
+    background-repeat: no-repeat;
+   }
+   .site-main__title{
+    
+    font-family: 'Fraunces ';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+   }
+   .site-main__pic-img{
+    width: 445px;
+    height: 520px;
+   }
+  .site-main__graet{
     margin-bottom: 136px;
     padding:117px 0 116px 85px;
     background-image: url(../img/Bitmap\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position:y -600px;
   }
-  .start{
-    padding: px 0 116px 85px;
+  .site-main__start{
+    padding: 137px 0 137px 85px;
+  }
+  .site-main__start2{
+    padding: 137px 0 137px 85px;
+  } .navbar__link:hover{
+    color: #0c0d0e;
+  }
+  .site-main__pic-img{
+    margin-top: 168px;
   }
   h1{
     width: 493px;
@@ -97,9 +121,42 @@ font-size: 72px;
 line-height: 72px;
 color: #FEFCF7;
   }
-  .text{
+  .site-main__built{
+    display: flex;
+    align-items: center;
+  }
+  .site-main__built{
+    padding: 0 85px;
+  }
+  .site-main__built-about-text{
+    width: 357px;
+    margin-bottom: 32px;
+    font-family: 'Fraunces ';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #333D4B;
+  }
+  .site-main__built-about-p{
+    width: 540px;
+    height: 260px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+mix-blend-mode: normal;
+opacity: 0.8;
+  }
+  .site-main__built-about{
+    margin-top: 258px;
+    margin-left: 125px;
+  }
+  .site-main__text{
     width: 445px;
-    padding-top: 32px;
+    height: 104px;
+    margin-top: 32px;
     padding-bottom: 56px;
     font-weight: 400;
     font-size: 16px;
@@ -109,7 +166,7 @@ color: #FEFCF7;
     opacity: 0.8;
     
   }
-.button{
+.site-main__button{
   display: inline-block;
   font-family: 'Fraunces 9pt';
 font-style: normal;
@@ -123,7 +180,7 @@ padding: 15px 31px;
 background: #194e4c;
 border-radius: 6px;
 }
-.button:hover{
+.site-main__button:hover{
   transition: all 0.4s;
   background: #26d4ce;
   border-radius: 6px;
@@ -339,3 +396,4 @@ color: #83888F;
 .kopi:hover{
   background: #FDD6BA;
 }
+
